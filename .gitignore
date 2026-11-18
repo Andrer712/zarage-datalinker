@@ -1,0 +1,59 @@
+# ========================
+# Archivos de sistema / Windows
+# ========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ========================
+# Archivos de PowerShell / sesión
+# ========================
+*.ps1xml
+*.psd1
+*.psm1
+*.psc1
+*.pssc
+*.psrc
+*.cdxml
+*.clixml
+
+# ========================
+# Visual Studio / VS Code
+# ========================
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ========================
+# Archivos temporales y de compilación
+# ========================
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+~$*
+
+# ========================
+# Carpetas de dependencias / build (por si más adelante añades algo)
+# ========================
+bin/
+obj/
+packages/
+node_modules/
+dist/
+build/
+
+# ========================
+# Archivos sensibles / locales
+# ========================
+*.env
+*.config
+secrets.*
+local.*
